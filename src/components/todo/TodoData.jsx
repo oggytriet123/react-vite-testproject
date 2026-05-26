@@ -2,6 +2,9 @@
 const TodoData = (props) => {
     const { name, age, data } = props;
     console.log(">>> check props", props)
+    const AddNewTodo = () => {
+        alert("call me")
+    }
 
     return (
         <div className='todo-data'>
