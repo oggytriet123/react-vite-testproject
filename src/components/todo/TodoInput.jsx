@@ -12,6 +12,7 @@ const TodoInPut = (props) => {
 
     const handleOnChange = (name) => {
         setValueInput(name)
+
     }
 
     return (
